@@ -1,36 +1,45 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Text Search Application
 
-## Getting Started
+This is a simple text search application built with Next.js and Tailwind CSS. The application allows users to search through a list of articles, with the search term highlighted in the results. The layout is responsive and includes a sidebar with author information.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Search through articles by title and content.
+- Highlight matching search terms in the results.
+- Responsive design with a sidebar for additional information.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Technologies Used
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Next.js**: Framework for building server-rendered React applications.
+- **Tailwind CSS**: Utility-first CSS framework for styling.
+- **TypeScript**: Provides static typing for better code quality.
+- **JSON data file**: Articles are stored in a separate JSON file for easy management.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Installation Instructions
 
-## Learn More
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/morahal/search-app.git
+   cd search-app
 
-To learn more about Next.js, take a look at the following resources:
+2. **Install dependencies**:
+    ```bash
+    yarn install
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. **Run the development server**:
+    ```bash
+    yarn dev
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+4. Open http://localhost:3000 in your browser to view the application.
 
-## Deploy on Vercel
+## Project Structure
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- pages/index.tsx: The main page where the search functionality and UI components are implemented.
+- data/articles.json: Contains the articles data in JSON format, making it easy to update and manage.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Usage
+- Enter a keyword or phrase in the search box.
+- The application will display articles containing the search term, with matched words highlighted.
+
+## Additional Information
+- This project demonstrates how to use Next.js for building a search interface, Tailwind CSS for styling, and TypeScript for improved type safety. The articles data is stored in a separate JSON file to keep the content independent from the code.
