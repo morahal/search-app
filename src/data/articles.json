@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "title": "Understanding the difference between grid-template and grid-auto",
+    "date": "Oct 09, 2018",
+    "content": "With all the new properties related to CSS Grid Layout, one of the distinctions that always confused me was the difference between the grid-template-* and grid-auto-* properties. Specifically the difference between grid-template-rows/columns and grid-auto-rows/columns."
+  },
+  {
+    "id": 2,
+    "title": "Recreating the GitHub Contribution Graph with CSS Grid Layout",
+    "date": "Jan 15, 2019",
+    "content": "Learn how to recreate GitHub's contribution graph using CSS Grid, making it responsive and visually appealing."
+  },
+  {
+    "id": 3,
+    "title": "Mastering Flexbox: A Guide to Modern CSS Layout",
+    "date": "Mar 22, 2020",
+    "content": "Flexbox is a powerful CSS layout module that allows you to design flexible and efficient layouts without using floats or positioning."
+  },
+  {
+    "id": 4,
+    "title": "CSS Grid vs Flexbox: When to Use Which",
+    "date": "May 11, 2021",
+    "content": "Both CSS Grid and Flexbox are powerful tools for creating layouts, but they excel at different things. Learn when to use each layout system in your designs."
+  },
+  {
+    "id": 5,
+    "title": "Building a Responsive Navbar with CSS Grid",
+    "date": "Jul 07, 2021",
+    "content": "Creating a responsive navbar that adapts to different screen sizes is easy with CSS Grid. Follow this guide to learn how to build one."
+  },
+  {
+    "id": 6,
+    "title": "A Deep Dive into CSS Variables",
+    "date": "Aug 18, 2021",
+    "content": "CSS Variables, also known as custom properties, allow you to create reusable values across your stylesheets, making your code cleaner and more maintainable."
+  },
+  {
+    "id": 7,
+    "title": "Using CSS Grid for Advanced Layouts",
+    "date": "Sep 10, 2021",
+    "content": "CSS Grid allows you to create complex layouts that were previously difficult or impossible with CSS alone. Explore how to build advanced grid layouts in this tutorial."
+  },
+  {
+    "id": 8,
+    "title": "Creating Animations with CSS Keyframes",
+    "date": "Nov 12, 2021",
+    "content": "CSS Keyframes enable you to create animations that can add dynamic elements to your website. Learn how to use keyframes to create smooth animations."
+  },
+  {
+    "id": 9,
+    "title": "Introduction to CSS Transitions",
+    "date": "Jan 05, 2022",
+    "content": "CSS Transitions allow you to change property values smoothly over a specified duration, making for a more engaging user experience."
+  },
+  {
+    "id": 10,
+    "title": "Exploring the Power of CSS Grid Template Areas",
+    "date": "Feb 15, 2022",
+    "content": "CSS Grid Template Areas allow you to define named grid areas and place elements into those areas, making it easy to create well-structured layouts."
+  }
+]
